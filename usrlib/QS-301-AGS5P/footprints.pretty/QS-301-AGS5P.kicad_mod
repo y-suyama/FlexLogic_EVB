@@ -1,0 +1,235 @@
+(footprint "QS-301-AGS5P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JUSHUO FPC connector, 04 bottom-side contacts, 1.0mm pitch, 2.5mm height, SMT, https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFA07-S04FCA-00_C262710.pdf")
+	(tags "jushuo fpc")
+	(property "Reference" "REF**"
+		(at -3.89 -7.08 0)
+		(layer "F.SilkS")
+		(uuid "af7dad82-f08b-4685-881b-9ebdca8971ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "QS-301-AGS5P"
+		(at -0.03 -5.52 0)
+		(layer "F.Fab")
+		(uuid "84ee8e6a-54cc-4152-b053-ac6bec628550")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a1e3952-7d78-4819-a183-a485e313a9ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cd06f52-e122-4ba8-94fe-822a68b28956")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.92 -3.58)
+		(end -4.92 -3.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48defd89-3e8c-468d-b5f1-5b6ba7549bd7")
+	)
+	(fp_line
+		(start -5.92 -2.58)
+		(end -5.92 -3.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "885fe32c-46a4-40d4-9a66-621a715e7c45")
+	)
+	(fp_line
+		(start 4.92 -3.59)
+		(end 5.92 -3.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a72adba-a51e-4241-b55c-68e0f0d0ca56")
+	)
+	(fp_line
+		(start 5.92 -2.59)
+		(end 5.92 -3.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65f97a67-2de8-4521-a24f-85309edd0bd2")
+	)
+	(fp_poly
+		(pts
+			(xy 4.48 -4.29) (xy 4.19 -4.29) (xy 3.877499 -4.290909) (xy 4.19 -3.85)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "79550965-ef77-49f0-b1c9-adc3bb6a36a0")
+	)
+	(fp_line
+		(start -6.98 2.045)
+		(end -5.98 2.045)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36f98ba5-aad2-43d9-bdcc-c14f49d1bad7")
+	)
+	(fp_line
+		(start -5.990782 -3.645)
+		(end -5.98 2.045)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08dc32ad-fed8-4b8e-9b1f-6e78edd5410a")
+	)
+	(fp_line
+		(start 6 -3.65)
+		(end -6 -3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9fea3611-64e1-4c8f-929c-ef436a7d2889")
+	)
+	(fp_line
+		(start 6 2.045)
+		(end 6 -3.645)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbab77e9-38a2-43de-b727-3d273d77b678")
+	)
+	(fp_line
+		(start 6 2.045)
+		(end 7 2.045)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0be767ec-2915-4500-9de8-053d78dffa32")
+	)
+	(fp_arc
+		(start 7.019946 2.046041)
+		(mid 0.019479 8.690258)
+		(end -6.98 2.045)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "216a51fc-7d3e-4f7a-9778-96045d5eaa66")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.12 0.32 0)
+		(layer "F.Fab")
+		(uuid "635e8778-9852-4a5b-9362-4ca5687a927e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.5 0.245)
+		(size 1.05 1.05)
+		(drill 1.05)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ae3ff903-e587-4f6e-9032-e74ea5cbf348")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.5 0.245)
+		(size 1.05 1.05)
+		(drill 1.05)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8312d25f-678c-4866-834b-328037cded74")
+	)
+	(pad "1" smd rect
+		(at 2.5 -3.37)
+		(size 1.9 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80cf0d69-7447-43bb-a79a-444efe6cca46")
+	)
+	(pad "2" smd rect
+		(at 0 -3.375)
+		(size 1.9 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4229cb88-f0a5-4a12-8353-25191da5704a")
+	)
+	(pad "3" smd rect
+		(at -2.5 -3.405)
+		(size 1.9 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4229c955-3693-42b2-b26b-e1cd9b5ca088")
+	)
+	(pad "4" smd rect
+		(at -5.4 1.245)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "98854886-2cc6-4606-92c6-2034a023ceb6")
+	)
+	(pad "5" smd rect
+		(at 5.4 1.245)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0fdaf67-1439-4991-9a19-340e4d62896d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/JUSHUO_AFA07-S04FCA-00_1x4-1MP_P1.0mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

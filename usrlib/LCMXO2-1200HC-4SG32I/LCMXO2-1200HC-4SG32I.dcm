@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LCMXO2-1200HC-4SG32I
+D IC FPGA 21 I/O 32QFN
+K
+F https://www.arrow.com/en/products/lcmxo2-1200hc-4sg32i/lattice-semiconductor
+$ENDCMP
+#
+#End Doc Library
